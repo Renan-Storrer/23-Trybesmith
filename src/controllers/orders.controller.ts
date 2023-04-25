@@ -12,5 +12,5 @@ export default class OrderController {
   public findAll = async (_req: Request, res: Response) => {
     const orders = await this.service.findAll();
     return res.status(200).json(orders);
-  }
+  };
 }

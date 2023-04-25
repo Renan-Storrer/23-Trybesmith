@@ -8,4 +8,3 @@ const controller = new OrderController();
 router.get('/', controller.findAll);
 
 export default router;
-
