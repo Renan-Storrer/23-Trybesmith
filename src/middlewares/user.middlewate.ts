@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { IUser } from '../interfaces'
+import { IUser } from '../interfaces';
 
 export default class UserMiddleware {
   public static validateUsername = (req: Request, res: Response, next: NextFunction) => {
@@ -63,6 +63,5 @@ export default class UserMiddleware {
         .json({ message: '"password" length must be at least 8 characters long' });
     }
     next();
-  }
+  };
 }
-

@@ -22,5 +22,5 @@ export default class UserController {
     if (loginUser.type) return res.status(loginUser.type).json({ message: loginUser.message });
 
     return res.status(200).json({ token: loginUser.token });
-  }
+  };
 }
