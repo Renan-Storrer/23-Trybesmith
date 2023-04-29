@@ -11,7 +11,7 @@ This RESTful API for a medieval item shop was built with Node.js and TypeScript 
 
 - Programming in TypeScript language;
 - Develop a CRUD API (Create, Read, Update and Delete);
-- Develop endpoints to read and write to a MySQL database.
+- Develop endpoints to read and write to a MySQL database;
 
 ## Getting Started
 
